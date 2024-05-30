@@ -1,0 +1,69 @@
+#covid .divider {
+  padding-top: 156px;
+  border-bottom: 1px solid #dcddeb;
+}
+
+#covid .wrapper {
+  border-radius: 24px;
+  background: #211f54;
+  gap: 72px;
+}
+
+.covid__img {
+  max-width: 554px;
+}
+
+.covid__content {
+  padding: 137.5px 76px 137.5px 0;
+  /* padding-right: 76px; */
+  color: #fff;
+}
+
+.covid__intro {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.covid__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.98px;
+  letter-spacing: 0%;
+  margin: 17px 0;
+}
+
+.covid__text {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+}
+
+.covid__contacts {
+  margin-top: 12px;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.covid__contacts-wrapper {
+  flex-direction: column;
+  gap: 4px;
+}
+
+.covid__contacts-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.covid__contacts-link {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.01px;
+  letter-spacing: 0%;
+}

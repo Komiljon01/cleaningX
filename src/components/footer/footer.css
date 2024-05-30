@@ -1,0 +1,143 @@
+#footer {
+  padding-top: 140px;
+}
+
+.footer__sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding-bottom: 140px;
+  border-bottom: 1px solid #eff0f6;
+}
+
+.footer__intro-title {
+  color: rgb(33, 31, 84);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.01px;
+  letter-spacing: 0%;
+}
+
+.footer__intro-text {
+  color: rgb(110, 113, 145);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+  margin: 7px 0 33px;
+}
+
+.footer__shapes {
+  gap: 16px;
+}
+
+.shape {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgb(237, 245, 255);
+}
+
+.footer__contacts,
+.footer__hours,
+.footer__estimate {
+  flex-direction: column;
+  gap: 29px;
+}
+
+.footer__contacts-title,
+.footer__hours-title,
+.footer__estimate-title {
+  color: rgb(33, 31, 84);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.footer__contacts-lists {
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 12px;
+}
+
+.footer__contacts-lists p,
+.footer__contacts-lists a {
+  color: rgb(110, 113, 145);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+}
+
+.footer__contacts-lists li:nth-child(3) {
+  margin-top: 6px;
+}
+
+.footer__hours-lists {
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer__hours-lists li {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__hours-lists h4 {
+  color: rgb(33, 31, 84);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.footer__hours-lists p {
+  color: rgb(110, 113, 145);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+}
+
+.footer__estimate-link {
+  color: rgb(0, 117, 255);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36.01px;
+  letter-spacing: 0%;
+}
+
+.footer__estimate-text {
+  color: rgb(110, 113, 145);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+  margin: 6px 0 18px;
+}
+
+.copyrights {
+    padding: 40px 0 32px;
+}
+
+.copyrights__content {
+  gap: 10px;
+}
+
+.copyrights__content p {
+  color: rgb(110, 113, 145);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+}
+
+.copyrights__content a {
+  color: rgb(0, 117, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
+  letter-spacing: 0%;
+  text-decoration-line: underline;
+}

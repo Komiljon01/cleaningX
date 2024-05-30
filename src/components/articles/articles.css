@@ -1,0 +1,21 @@
+#articles {
+  padding-top: 147px;
+  padding-bottom: 140px;
+}
+
+.articles__title {
+  color: #211f54;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.98px;
+  letter-spacing: 0%;
+}
+
+.articles__intro {
+  padding: 24px 0;
+  margin-bottom: 68px;
+}
+
+.articles__into-links {
+  gap: 28px;
+}
